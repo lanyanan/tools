@@ -24,3 +24,9 @@
 ### 前端清除默认样式的文件
     
     reset文件夹下面的文件直接引用或者@import引入
+
+### ajax的封装
+    
+    用法是直接引用import ajax from "../...ajax.js"
+    opt是需要传入的对象包括
+    opt.method, opt.url, opt.data, opt.async,opt.success等等
